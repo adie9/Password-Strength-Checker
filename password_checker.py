@@ -8,7 +8,7 @@ def password_checker(password):
     # Is the password longer than eight characters?
     if len(password) > 8:
         length = True
-    else: False
+    else: length = False
 
 
     # Does the password have numbers?
@@ -18,12 +18,11 @@ def password_checker(password):
     # Does the password have letters?
     letters = any(char.isalpha() for char in password)
             
-            
+    print(length)
     print(numbers)
     print(letters)
 
-    # Print the password
-    #print(f"Your new password is: {password}")
+    # Scoring System where 0-2 = "Weak", 3 = "Moderate", and 4 = "Strong"
 
 
 if __name__ == "__main__":
