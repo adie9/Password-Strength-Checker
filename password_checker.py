@@ -46,7 +46,7 @@ def score_calculator(categories):
 
 # Special Character checker function
 def special_character_checker(password):
-        special_characters = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')',
+        special_characters = [' ', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')',
         '-', '_', '+', '=', '[', ']', '{', '}', ';', ':', ',', '.', '<', '>',
         '/', '?', '\\', '|', '`', '~']
         
