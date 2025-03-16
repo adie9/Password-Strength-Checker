@@ -6,7 +6,7 @@ This project entails creating a simple password strength checker using Python.
 
 I began with creating the main function of the project, "password_checker".
 
-```
+```python
 def password_checker(password):
     length = False
     letters = False
